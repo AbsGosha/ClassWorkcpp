@@ -7,4 +7,4 @@
 
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/20.02.2024.cpp>20.02.2024</a> - логические операторы, switch case
 
-<a href=
+<a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/22.02.2024.cpp> 22.02.2024<a\> - циклы 
