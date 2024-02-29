@@ -8,3 +8,5 @@
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/20.02.2024.cpp>20.02.2024</a> - логические операторы, switch case
 
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/22.02.2024.cpp> 22.02.2024</a> - циклы 
+
+<a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/27.02.2024.cpp> 27.02.2024</a> - продолжение циклов
