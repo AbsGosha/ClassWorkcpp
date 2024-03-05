@@ -12,3 +12,5 @@
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/27.02.2024.cpp> 27.02.2024</a> - продолжение циклов
 
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/29.02.2024.cpp> 29.02.2024</a> - продолжение циклов 
+
+<a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/05.03.2024.cpp> 05.03.2024</a> - массивы
