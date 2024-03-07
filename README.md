@@ -15,4 +15,4 @@
 
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/05.03.2024.cpp> 05.03.2024</a> - массивы
 
-< a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/07.03.2024.cpp> 07.03.2024</a> - массивы
+<a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/07.03.2024.cpp> 07.03.2024</a> - массивы
