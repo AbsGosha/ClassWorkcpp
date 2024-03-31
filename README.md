@@ -22,3 +22,5 @@
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/14.03.2024.cpp> 14.03.2024</a> - двумерные массивы
 
 <a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/19.03.2024.cpp> 19.03.2024</a> - виды сортировок
+
+<a href=https://github.com/AbsGosha/ClassWorkcpp/blob/main/21.03.2024.cpp> 21.03.2024</a> - функции
