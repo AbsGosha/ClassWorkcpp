@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 #define random(a, b) a + rand() % (b - a + 1)
+// 9
 void Row(int ind) {
 	int arr[3] = { 1,2,3 };
 	int n = 0;
