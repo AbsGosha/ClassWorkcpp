@@ -25,6 +25,27 @@ void Row(int ind) {
 	delete[] buf;
 	buf = buf2;
 }
+// 6
+int minSumm(int** arr) {
+	int size1 = _msize(arr) / sizeof(arr[0]);
+	int size2 = _msize(arr[0]) / sizeof(arr[0][0]);
+	int index = 0, sum = 0;
+
+	for (int j = 0; j < size2; j++) {
+		sum += arr[0][j];
+	}
+	for (int i = 1, sumBuf =0; i < size1; i++) {
+		for (int j = 0; j < size2; j++) {
+			sumBuf += arr[i][j];
+		}
+		if (sumBuf < sum) {
+			sum = sumBuf;
+			index = i;
+		}
+		sumBuf = 0;
+	}
+	return index;
+}
 int main()
 {
 	// задание 1
