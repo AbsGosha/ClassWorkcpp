@@ -26,7 +26,7 @@ void Row(int ind) {
 	buf = buf2;
 }
 // 6
-int minSumm(int** arr) {
+int minSum(int** arr) {
 	int size1 = _msize(arr) / sizeof(arr[0]);
 	int size2 = _msize(arr[0]) / sizeof(arr[0][0]);
 	int index = 0, sum = 0;
@@ -157,3 +157,22 @@ int main()
 	}
 	cout << "Sum: " << sum << " Num: " << num;
 }
+// 6
+int size1 = 4;
+	int size2 = 4;
+	int** array2 = new int* [size1];
+	int min, max;
+	cin >> min >> max;
+	if (max < min) {
+		swap(max, min);
+	}
+
+	for (int i = 0; i < size1; i++) {
+		array2[i] = new int[size2];
+		for (int j = 0; j < size2; j++) {
+			array2[i][j] = random(min, max);
+			cout << array2[i][j] << " ";
+		}
+		end;
+	}
+	cout<<minSum(array2);
