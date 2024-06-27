@@ -104,25 +104,25 @@ int main()
 		array[i] = random(10, 90);
 		cout << array[i];
 	}
-	 задание 6
-	int num = INT_FAST32_MAX;
-	int sum = 0;
-	int n = 1;
-	int** array = new int* [4];
-	for (int i = 0; i < 4; i++) {
-		array[i] = new int[4];
-		for (int j = 0; j < 4; j++) {
-			array[i][j] = random(1, 9);
-			cout << array[i][j] << " ";
+	 //задание 6
+	//int num = INT_FAST32_MAX;
+	//int sum = 0;
+	//int n = 1;
+	//int** array = new int* [4];
+	//for (int i = 0; i < 4; i++) {
+		//array[i] = new int[4];
+		//for (int j = 0; j < 4; j++) {
+			//array[i][j] = random(1, 9);
+			//cout << array[i][j] << " ";
 		}
-		cout << endl;
+		//cout << endl;
 	}
-	for (int i = 0; i < 4; i++) {
-		for (int j = 0; j < n; j++) {
-			sum += array[i][j];
-		}
+	//for (int i = 0; i < 4; i++) {
+		//for (int j = 0; j < n; j++) {
+			//sum += array[i][j];
+		//}
 
-	}
+	//}
 	// задание 9
 	int** array = new int* [3];
 	int* array2 = new int[3]{ 1,2,3 };
