@@ -20,10 +20,10 @@ public:
 	bool operator<(MyArray& myArr);
 	bool operator>=(MyArray& myArr);
 	bool operator<=(MyArray& myArr);
-	MyArray operator+=(MyArray&); // äîäåëàòü
+	MyArray operator+=(MyArray&); // Ã¤Ã®Ã¤Ã¥Ã«Ã Ã²Ã¼
 	~MyArray();
 	
-	//ØÀÁËÎÍÛ
+	//Ð¨ÐÐ‘Ð›ÐžÐÐ«
 
 	MyArray();
 	MyArray(T* arr, int size);
