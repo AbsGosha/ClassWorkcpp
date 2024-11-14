@@ -117,7 +117,7 @@ MyArray::~MyArray()
 {
 }
 
-// ьюакнмш
+// п╗п░п▒п⌡п·п²п╚
 
 template <typename T>
 MyArray<T>::MyArray() {
