@@ -97,15 +97,21 @@ bool MyArray::operator!=(MyArray& myArr)
 
 bool MyArray::operator>(MyArray& myArr)
 {
-	if (this->size != myArr.size) {
-		return 0;
-	}
-	for (int i = 0; i < this->size; i++) {
-		if (this->arr[i] < myArr.arr[i]) {
-			false;
-		}
-	}
-	return true;
+    int sum1 = 0;
+    int sum2 = 0;
+    if (this->size != myArr.size) {
+        return 0;
+    }
+    for (int i = 0; i < this->size; i++) {
+        sum1 += this->arr[i];
+    }
+    for (int i = 0; i < myArr.size; i++) {
+        sum2 += myArr.arr[i];
+    }
+    if (sum1 > sum2) {
+        return true;
+    }
+    return false;
 }
 
 MyArray::~MyArray()
