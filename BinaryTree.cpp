@@ -1,7 +1,13 @@
 #include "BinaryTree.h"
 
-void BinaryTree::clearMemory(Node* node)
+void BinaryTree::clearMemory(Node* root)
 {
+	if (root == nullptr) {
+		return;
+	}
+	clearMemory(root->left);
+	clearMemory(root->right);
+	delete root;
 }
 
 BinaryTree::BinaryTree(int* arr, int size)
