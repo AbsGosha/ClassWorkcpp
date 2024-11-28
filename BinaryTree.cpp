@@ -25,8 +25,15 @@ Node* BinaryTree::find(int value, Node* node)
     return nullptr;
 }
 
-void BinaryTree::print(Node* node)
+void BinaryTree::print(Node* root)
 {
+	if (root == nullptr) {
+		return;
+	}
+	print(root->left);
+	cout << root->value << " ";
+	print(root->right);
+	
 }
 
 BinaryTree::~BinaryTree()
