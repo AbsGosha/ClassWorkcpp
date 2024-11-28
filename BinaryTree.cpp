@@ -12,7 +12,9 @@ void BinaryTree::clearMemory(Node* root)
 
 BinaryTree::BinaryTree(int* arr, int size)
 {
-    
+    for (int i = 0; i < size; i++) {
+		insert(arr[i], this->root);
+	}
 }
 
 void BinaryTree::insert(int value, Node* node)
