@@ -24,4 +24,12 @@ int main()
 	list.delete_first();
 	cout << endl;
 	list.print();
+	Queue <int> list1;
+	list1.insert(5);
+	list1.insert(1);
+	list1.insert(2);
+	list1.insert(3);
+	list1.show();
+	list1.remove();
+	list1.show();
 }
