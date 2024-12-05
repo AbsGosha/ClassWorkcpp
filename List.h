@@ -42,7 +42,7 @@ public:
 		}
 		cout << endl;
 	}
-	void push_front(T value) { // äîáàâëåíèå ýëåìåíòà â íà÷àëî
+	void push_front(T value) { // Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¥ Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã  Ã¢ Ã­Ã Ã·Ã Ã«Ã®
 		if (this->empty()) {
 			this->first = new Node<T>(value);
 			return;
@@ -71,6 +71,11 @@ public:
 		first = p->next;
 		delete p;
 
+	}
+	List(T* arr, int size) {
+		for (int i = 0; i < size; i++) {
+			push_back(arr[i]);
+		}
 	}
 };
 
